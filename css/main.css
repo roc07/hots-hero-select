@@ -1,0 +1,97 @@
+.icon{
+  height: 100px;
+  width: 100px;
+  background: red;
+  border: 1px solid black;
+  float: left;
+}
+
+img{
+  margin: 6px;
+  border-radius: 7px;
+  opacity: 1;
+}
+
+.icons{
+    position: absolute;
+    float: right;
+    width: 700px;
+    right: 0px;
+}
+#required {
+    float: left;
+}
+#reqList {
+    border: 1px solid darkblue;
+    position: absolute;
+    float: right;
+    bottom: 0px;
+    height: 10%;
+    width: 100%;
+}
+.button {   
+    border: solid black 1px;
+    color: black;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 7px;
+    opacity: 0.5;
+}
+
+.shield {
+    background-color: #a5bec0;
+}
+.shieldB {
+    background-color: #a5bec0;
+}
+.shieldB:hover{
+    background-color: #98a4a5;
+    border: 2px solid #797a7a;
+}
+
+.health {
+    background-color: #ff4040;
+}
+.healthB {
+    background-color: #ff4040;
+}
+body {
+    background-image: url(http://i.imgur.com/OcFygJu.jpg);
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropbtn {
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    border: 2px solid salmon;
+}
+
